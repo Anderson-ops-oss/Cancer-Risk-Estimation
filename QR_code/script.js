@@ -1030,7 +1030,7 @@ function estimateProcessingStep(elapsedMs) {
   }
 
   if (elapsedMs < 13000) {
-    return "Sending request to DeepSeek...";
+    return "Sending request to AI server...";
   }
 
   if (elapsedMs < 28000) {
